@@ -125,6 +125,6 @@ Commands on how you got the answer
 
 - Clone the repo https://github.com/masai-school/full-stack-dev inside `~/repos` folder
 - Navigate to the folder `~/repos/full-stack-dev/`
-- Copy the `course/week_1/day_1/w1_day_2_assignments.md` file to the `test` repository which should be at `~/repos/test`
+- Copy the `course/week_1/day_2/w1_day_2_assignments.md` file to the `test` repository which should be at `~/repos/test`
 - Open the file `w1_day_2_assignments.md` in the text editor using GUI and fill all the answers
 - Sync your `test` repo online with the solutions
