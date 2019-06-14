@@ -27,7 +27,7 @@ Design an awesome profile page for the superhero randomly picked by you
 - Deadline 14 Jun 2019 17:00
 - The name of the file should be `index.html`
 - Any images or icons you use should be put in a folder called `resources`
-- The project should be made available on your github http://github.com account with the repo name `masasi-week-1`
+- The project should be made available on your github http://github.com account with the repo name `masai-week-1`
 
 
 
