@@ -210,7 +210,7 @@ console.log(output)
 
 Often we may have data in one type for example `string` and we may want to convert into another type for example `number` in order to do some calculations or to simply display the number. 
 
-To convert from a string to a number we can use the `Number()` function.
+To convert from a `string` to a `number` we can use the `Number()` function.
 
 **Example:**  
 
@@ -232,7 +232,7 @@ console.log(num1 + num2)
 
 Notice how the first output `1213` is simply the sting `"12"` concatenated with the string `"13"` whereas the second output is actually the value of `12 + 13 = 25`
 
-On the other hand to convert a `string` to a `number` we can use the `.toString()` function.
+On the other hand to convert a `number` to a `string` we can use the `.toString()` function.
 
 **Example:**  
 ```javascript
