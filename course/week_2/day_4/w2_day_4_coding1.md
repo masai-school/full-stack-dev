@@ -32,7 +32,9 @@ In Javascript do the following:
 
 Example: If `num1 = 3` and  `num2=2`, your output is 3<sup>2</sup> = `9`.  
 
-3. You cannot use the `**` operator. 
+3. You cannot use the `**` operator.  
+  
+4. You also cannot use the `Math.pow` function. 
 
 **Hint:** Use a loop!
 
