@@ -32,13 +32,15 @@ In Javascript do the following:
 
 Example: If `num1 = 3` and  `num2=2`, your output is 3<sup>2</sup> = `9`.  
 
-3. You cannot use the `**` operator. 
+3. You cannot use the `**` operator.  
+  
+4. You also cannot use the `Math.pow` function. 
 
 **Hint:** Use a loop!
 
 ### FSD.W2.4.1_2
 
-Sum of multiples of 3 and 5!
+Sum of multiples of 3 and 5.
 
 In Javascript do the following: 
 
@@ -48,7 +50,12 @@ In Javascript do the following:
 
 3. When the button is clicked you must output the sum of all the multiples of 3 and 5 in the output `p` tag.
 
-Eg: if the `limit` is 30. The output should be `15 + 30 = 45`
+Eg: if the `limit` is 30. The output should be `15 + 30 = 45`  
+
+If the `limit` is 100. The output should be `15 + 30 + 45 + 60 + 75 + 90 = 315`  
+
+If the `limit` is 150. The output should be `15 + 30 + 45 ... + 150 = 825`
+
 
 
 ### FSD.W2.4.1_2
