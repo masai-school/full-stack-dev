@@ -6,6 +6,8 @@
 
 [https://repl.it/classroom/invite/bMID3TZ](https://repl.it/classroom/invite/bMID3TZ)
 
+Login in with your github ID if possible. 
+
 There are Easy, Medium and Hard Problems Involving Loops and Arrays.
 
 
