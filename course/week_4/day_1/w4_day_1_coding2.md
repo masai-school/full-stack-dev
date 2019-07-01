@@ -1,6 +1,6 @@
-# Week 4 - Day 4
+# Week 4 - Day 1
 
-#### Coding Session 1
+#### Coding Session 2
 
 **SUBMISSION:**
 
