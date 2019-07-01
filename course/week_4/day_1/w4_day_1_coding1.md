@@ -6,7 +6,7 @@
 
 - Pull the `cohort_1` repo
 
-- Go to `practise/week_4/day_1/session1` 
+- Go to `practise/week_4/day_1/session2` 
 
 - Copy  the file called `firstname_lastname.html` with your name
 
