@@ -1,4 +1,4 @@
-# Week 4 - Day 3
+# Week 4 - Day 1
 # Javascript Basics VII Notes:
 
 ## The for in loop
