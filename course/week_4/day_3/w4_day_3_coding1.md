@@ -25,13 +25,13 @@
 
 A button with the text `Click here to print the JSON object` is given to you.
 
-An object `items` is given to you. It contains an array of Objects.
+An variable `items` is given to you. It contains an array of Objects.
 
 A div with `id="container1` is given to you.
 
 **Using JavaScript do the following:**
 
-1. When the button is clicked, you must extract each element from the `items` object and convert them to a `JSON` string. Only do this right before you are about to display it. Pushing a JSON into an array converts it into an `string`!` 
+1. When the button is clicked, you must convert a given array value from `object` to `JSON`. 
 2. You must then create `p` tags and display the `name` and `price` of each object within the `p` tag you created. You must not display the value of the `id` key!
 3. Append the `p` tags to the div with `id="container1`.
 
@@ -54,7 +54,7 @@ display(9) -> "The exponent is: 9"
 ```
 4. When the button is clicked, you must call the function `exponent` with the appropriate inputs from the input elements for `x` and `y` from the input boxes. You must also pass the `display` function as the `callback` argument. Store the output in a variable.
 5. Print the output to a `p` tag with the text `Output:`.  
-
+6. Step 4 and 5 should be done by an anonymous function passed to the button listener.
 ### FSD.W4.2.2_3 (Bonus question but I highly encourage you to finish this!)
 
 **Solve the HackerRank problem given below:**
