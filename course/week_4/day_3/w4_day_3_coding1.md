@@ -31,7 +31,7 @@ A div with `id="container1` is given to you.
 
 **Using JavaScript do the following:**
 
-1. When the button is clicked, you must extract each element from the `items` object and convert them to a `JSON` string. 
+1. When the button is clicked, you must extract each element from the `items` object and convert them to a `JSON` string. Only do this right before you are about to display it. Pushing a JSON into an array converts it into an `string`!` 
 2. You must then create `p` tags and display the `name` and `price` of each object within the `p` tag you created. You must not display the value of the `id` key!
 3. Append the `p` tags to the div with `id="container1`.
 
