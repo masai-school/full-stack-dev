@@ -24,7 +24,7 @@
 
 ## More HackerRank Problems!
 
-There is only one way of getting better a solving problems! So solve some more!
+There is only one way of getting better at solving problems, it's solving more problems!
 
 1. [https://www.hackerrank.com/challenges/diagonal-difference/problem](https://www.hackerrank.com/challenges/diagonal-difference/problem)
 
