@@ -42,7 +42,11 @@ You must set up your own API server, follow the instructions here [https://githu
 **Do the following:**
 
 1.Create a file called `login.html` and a file called `login.js`. Link `login.js` from `login.html`.
-2.Create a simple **login page** that allows a user to enter their username and password. 
-3. When the user submits their login details you must send the data to the api. 
+
+2.Create a simple **login page** that allows a user to enter their username and password.
+ 
+3. When the user submits their login details you must send the data to the api.
+ 
 4. If the login data is correct, you must display all the profile information. You must also delete the login page elements.
+
 5. If the login data is incorrect you must tell the user `The username or password was incorrect, please try again!`
