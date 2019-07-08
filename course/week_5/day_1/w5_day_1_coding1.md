@@ -28,6 +28,8 @@ A simple API that allows you to register a user, login a user and view the profi
 
 You can read the documentation here [https://github.com/masai-school/api-mocker/wiki/Authentication-API](https://github.com/masai-school/api-mocker/wiki/Authentication-API).
 
+You must set up your own API server, follow the instructions here [https://github.com/masai-school/api-mocker/wiki](https://github.com/masai-school/api-mocker/wiki).
+
 **Do the following:**
 
 1.Create a file called `register.html` and a file called `register.js`. Link `register.js` from `register.html`.
