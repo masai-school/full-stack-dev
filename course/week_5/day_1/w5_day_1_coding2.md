@@ -28,7 +28,7 @@ There is only one way of getting better a solving problems! So solve some more!
 
 1. [https://www.hackerrank.com/challenges/diagonal-difference/problem](https://www.hackerrank.com/challenges/diagonal-difference/problem)
 
-2. [https://www.hackerrank.com/challenges/diagonal-difference/problem](https://www.hackerrank.com/challenges/diagonal-difference/problem)
+2. [https://www.hackerrank.com/challenges/compare-the-triplets/problem](https://www.hackerrank.com/challenges/compare-the-triplets/problem)
 
 3. [https://www.hackerrank.com/challenges/plus-minus/problem](https://www.hackerrank.com/challenges/plus-minus/problem)
 
