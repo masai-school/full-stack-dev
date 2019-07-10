@@ -18,7 +18,7 @@
 
 **NOTE3:** You are **not** allowed to help any other student or look at any other students code. Any sharing of code or solutions is considered cheating.
 
-**NOTE4** Your submission is not valid unless you provide the screenshot as well as 
+**NOTE4** Your submission is not valid unless you provide the screenshot as well as a `.js` file with your code.
 
 **JavaScript (Part 11)**
 
