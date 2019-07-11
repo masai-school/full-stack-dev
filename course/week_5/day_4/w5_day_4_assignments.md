@@ -1,11 +1,11 @@
-# Week 5 - Day 3
+# Week 5 - Day 4
 
 #### Assignment
 
 **SUBMISSION:**
 
 - Pull the `cohort_1` repo
-- Go to `assignments/week_5/day_3` 
+- Go to `assignments/week_5/day_4` 
 - Make a folder called `firstname_lastname` with your own first name and last name. 
 - After you finish each HackerRank problem, take a screenshot of your accepted submission and add it to the above folder. 
 - Also make a `.js` file and paste your code for each problem and add that `.js` file to the above folder.
@@ -20,13 +20,12 @@
 
 **NOTE4** Your submission is not valid unless you provide the screenshot as well as your code.
 
-## More HackerRank Problems again ?!
+## This seems oddly familiar
 
-Practice makes perfect!
+Some trickier problems! They have a simple solution but many edge cases!
 
-1. [https://www.hackerrank.com/challenges/birthday-cake-candles/problem](https://www.hackerrank.com/challenges/birthday-cake-candles/problem)
-2. [https://www.hackerrank.com/challenges/apple-and-orange/problem](https://www.hackerrank.com/challenges/apple-and-orange/problem)
-3. [https://www.hackerrank.com/challenges/mini-max-sum/problem](https://www.hackerrank.com/challenges/mini-max-sum/problem)
+1. [https://www.hackerrank.com/challenges/day-of-the-programmer/problem](https://www.hackerrank.com/challenges/day-of-the-programmer/problem)
 
+2. [https://www.hackerrank.com/challenges/counting-valleys/problem](https://www.hackerrank.com/challenges/counting-valleys/problem)
 
-
+3. [https://www.hackerrank.com/challenges/save-the-prisoner/problem](https://www.hackerrank.com/challenges/save-the-prisoner/problem)
