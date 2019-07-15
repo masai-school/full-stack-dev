@@ -8,7 +8,7 @@
 - Go to `practise/week_6/day_1/session1` 
 - Make a folder called `firstname_lastname` with your own first name and last name. 
 - Make a file called `index.html` and `index.js`.
-- - Once you are done with the coding session push that folder to the online repo. 
+- Once you are done with the coding session push that folder to the online repo. 
 
 
 **JavaScript (Part 11)**
@@ -23,7 +23,7 @@
 
 **NOTE5:** You ***MUST*** use `let` and `const`, avoid using var. Use arrow functions where possible.
 
-You overall goal here will be to create a `Actor` class and `Movie` class which derives properties and functions from the movies class. 
+You overall goal here will be to create a `Movie` class and `Actor` class which derives properties and functions from the `Movie` class. 
 
 ### FSD.W6.1.1_1
 

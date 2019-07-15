@@ -61,7 +61,7 @@ console.log(timesThree);
 // When there is only one parameter, we can remove the surrounding parentheses. But we have to include the return statement in a multi-line arrow function. 
 
 var timesFour = arr.map(element =>{
-    element * 4;
+    return element * 4;
 })
 ```
 
