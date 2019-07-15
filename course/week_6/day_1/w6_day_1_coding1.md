@@ -43,15 +43,35 @@ You overall goal here will be to create a `Movie` class and `Actor` class which 
 
 **Using JavaScript do the following:**
 
+Your Final `Movie` class should contain the following properties:
+
+1.Name (string)
+2.Directors(Array of strings)
+3.Year (number)
+4. Rating (number)
+5. Writers (array of strings)
+
+Your final `Movie` class should contain the following functions/methods:
+
+1. printMovie() -> Returns a string with all the above movie properties with newlines separating each property. 
+
+Example: 
+
+```
+Name : Avengers
+Directors: Adam Johnson, Christopher Nolan
+Year: 2010 
+Rating: 8.8
+Writers: Chirstopher Nolan, Adam Johnson
+```
+
+
 1. Create a class for the movie input form above called `Movie`. It must have the relevant properties from the form given above.
 2. Directors, writers should be an array of strings. The input will be comma separated so use the `string.split` function.
-3. Also add a property in your class constructor called `cast` which will be an array of objects.
-4. Create a function in this class called `printMovie` which returns a `string` with all the properties of the `Movie` class in a presentable way.  
-5. Create a function in the class called `addCastMember(input)` this should allow you to add a new cast member **object** to the `cast` array. `input` is the new `Actor`
-6. Create a global array for all movies called `moviesArr`.
-7. When the submit button is clicked, a new `Movie` object must be created with properties from the form and added to the `moviesArr` array.
-8. When the `Print all movies` you must display all the movies in the `moviesArr` on the webPage using the `printMovie` function. 
-9. The must also display each `Actor` object in a presentable way.
+3. Create a function in this class called `printMovie` which returns a `string` with all the properties of the `Movie` class in a presentable way.  
+4. Create a global array for all movies called `moviesArr`.
+5. When the submit button is clicked, a new `Movie` object must be created with properties from the form and added to the `moviesArr` array.
+6. When the `Print all movies` you must display all the movies in the `moviesArr` on the webPage using the `printMovie` function. 
 
 **NOTE:** The `Actor` objects properties are given in FSD.W6.1.1_3.
 
@@ -61,7 +81,7 @@ You overall goal here will be to create a `Movie` class and `Actor` class which 
     - Name
     - Age
     - DOB
-    - Movies
+    
 2. Give the form a submit input button. (This cannot be a button outside the form, it must be an input of type "submit")
 
 3. Give your form the title `Add new Actor`
@@ -70,20 +90,51 @@ You overall goal here will be to create a `Movie` class and `Actor` class which 
 
 5. Add an input with the label `Actor Name`
 
+6. Add a button called `Print All Actors`
+
 ### FSD.W6.1.1_4
 
 **Using JavaScript do the following:**
 
 1. Create a class for the actor input called `Actor`. It must have the relevant properties from the form given above.
-2. The `movies` property must be an array of Strings.
-3. The `Actors` class must extend the `Movies` class. 
-4. Add a function called `checkMovies(arr)` which checks if the actor has appeared in any of the movies in the `arr` argument and returns `true` if they have or `false` if they have not.
-5. Add a function called `printActor` which returns a `string` with all the Actor properties in a presentable way.
-6. When the submit button is clicked, a new `Actor` object must be created with properties from the form. 
-7. You must then check if the actor has acted in any movies from the `moviesArr`. If they have, then add them to that `Movie` object's `casts` array. If they have not acted in any movies from the `moviesArr` then print an error on the webpage with the text `Error: Actor named <Name of Actor> has not acted in any movies from the DataBase!` where <Name of Actor> is the given actors name.  
-Notes: An actor may have acted in multiple movies.
-8. When the `Print Actor Movies` button is clicked, you must print all the movies an Actor has acted in. The name of the Actor will be in the input box with the label `Actor Name`.
+2. The `Actors` class must extend the `Movies` class. 
+3. Add a function in the `Actor` class called `checkMovies(arr)` which checks if the actor has appeared in any of the movies in the `arr` argument and returns that `Movie` object they have acted in.
+4. Create a global array called `actorArr` to store new `Actor` objects in.
+4. When the submit button is clicked, a new `Actor` object must be created with properties from the form. 
+5. You must then check if the actor has acted in any movies from the `moviesArr`. If they have, then add that `Movie` objects properties to the new `Actor` object you just created. If they have not acted in any movies from the `moviesArr` then print an error on the webpage with the text `Error: Actor named <Name of Actor> has not acted in any movies from the DataBase!` where <Name of Actor> is the given actors name.  
+Note: An actor may have acted in multiple movies.
+6. When the `Print All Actors` button is clicked you must print all the `Actor` objects within the `actorArr` onto the html page.
+7. When the `Print Actor Movies` button is clicked, you must print all the movie objects an Actor has acted in. The name of the Actor will be in the input box with the label `Actor Name` that you created before.
 
+Additional Hints:
 
+**Example of a movie object**
+
+```javascript
+let myMovie = new Movie (
+    name : "Avengers",
+    directors: ["Adam Johnson", "Christopher Nolan"]
+    year: 2010,
+    rating: 8.8,
+    writers: ["Chirstopher Nolan", "Adam Johnson"]
+)
+```
+
+**Example of Actor Object who's parent is the above object:**
+
+```javascript
+let myActor = new Actor(
+    actorName: "Leonardo",
+    Age: 44,
+    DOB: "11.11.1974",
+    name : "Avengers",
+    directors: ["Adam Johnson", "Christopher Nolan"]
+    year: 2010,
+    rating: 8.8,
+    writers: ["Chirstopher Nolan", "Adam Johnson"]
+    )
+```
+
+As you can see myActor contains all the properties of the parent. These properties are derived from the `super`. However the values are not derived automatically, you must define these values when you create a `new` Actor object.
 
   
