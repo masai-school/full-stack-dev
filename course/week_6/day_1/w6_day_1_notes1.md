@@ -302,6 +302,12 @@ Makes it really easy to write Multi-line strings:
 `This is the first line
 and this is the second line.`
 ```
+**Output:**
+
+```javascript
+'This is the first line\nand this is the second line.'
+```
+Notice how the `\n` newline character is automatically inserted.
 
 The key feature is expression interpolation or the ability to embed expressions within strings. 
 
@@ -315,13 +321,6 @@ This saves time on writing and managing a lot of `+` operators within strings.
 You can also call functions within these expressions.
 
 There are a few more cool features that you can read about on MDN [https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals) 
-
-**Output:**
-
-```javascript
-'This is the first line\nand this is the second line.'
-```
-Notice how the `\n` newline character is automatically inserted.
 
 There are many more features we have yet to discuss but we will get to them at a later time. 
 
