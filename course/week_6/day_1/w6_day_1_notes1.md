@@ -94,7 +94,7 @@ function varTest() {
 }
 ```
 
-As you can see, the score of `var` is for the entire function. This can be really inconvenient when you start to write very large functions or large programs where you many want to alter the value of globals.
+As you can see, the scope of `var` is for the entire function. This can be really inconvenient when you start to write very large functions or large programs where you many want to alter the value of globals.
 
 Same examples with `let`
 
