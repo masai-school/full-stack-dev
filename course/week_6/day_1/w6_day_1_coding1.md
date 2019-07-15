@@ -47,7 +47,7 @@ You overall goal here will be to create a `Movie` class and `Actor` class which 
 2. Directors, writers should be an array of strings. The input will be comma separated so use the `string.split` function.
 3. Also add a property in your class constructor called `cast` which will be an array of objects.
 4. Create a function in this class called `printMovie` which returns a `string` with all the properties of the `Movie` class in a presentable way.  
-5. Create a function in the class called `addCastMember(input)` this should allow you to add a new cast member object to the `cast` array. `input` is the new `Actor`
+5. Create a function in the class called `addCastMember(input)` this should allow you to add a new cast member **object** to the `cast` array. `input` is the new `Actor`
 6. Create a global array for all movies called `moviesArr`.
 7. When the submit button is clicked, a new `Movie` object must be created with properties from the form and added to the `moviesArr` array.
 8. When the `Print all movies` you must display all the movies in the `moviesArr` on the webPage using the `printMovie` function. 
