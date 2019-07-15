@@ -103,7 +103,7 @@ Writers: Chirstopher Nolan, Adam Johnson
 4. When the submit button is clicked, a new `Actor` object must be created with properties from the form. 
 5. You must then check if the actor has acted in any movies from the `moviesArr`. If they have, then add that `Movie` objects properties to the new `Actor` object you just created. If they have not acted in any movies from the `moviesArr` then print an error on the webpage with the text `Error: Actor named <Name of Actor> has not acted in any movies from the DataBase!` where <Name of Actor> is the given actors name.  
 Note: An actor may have acted in multiple movies.
-6. When the `Print All Actors` button is clicked you must print all the `Actor` objects within the `actorArr` onto the html page.
+6. When the `Print All Actors` button is clicked you must print all the `Actor` objects within the `actorArr` onto the html page. You can create a funciton within each actor object to do this.
 7. When the `Print Actor Movies` button is clicked, you must print all the movie objects an Actor has acted in. The name of the Actor will be in the input box with the label `Actor Name` that you created before.
 
 Additional Hints:
