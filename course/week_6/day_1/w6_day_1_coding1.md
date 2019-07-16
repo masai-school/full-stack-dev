@@ -81,6 +81,7 @@ Writers: Chirstopher Nolan, Adam Johnson
     - Name
     - Age
     - DOB
+    - Movie
     
 2. Give the form a submit input button. (This cannot be a button outside the form, it must be an input of type "submit")
 
