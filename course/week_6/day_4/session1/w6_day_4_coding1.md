@@ -1,4 +1,4 @@
-# Week 6 - Day 3
+# Week 6 - Day 4
 
 #### Coding Session 1
 
