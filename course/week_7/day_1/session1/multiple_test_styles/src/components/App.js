@@ -10,6 +10,7 @@ class App extends React.Component{
 				<h1 className = {styles.header} >Shopping List</h1>
 				<SimpleList />
 				<SimpleList />
+				<img src = "/computer.jpg" height = "50%" width = "50%" />
 			</div>
 		);
 	}
