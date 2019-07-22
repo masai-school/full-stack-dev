@@ -164,7 +164,6 @@ Here is the code for the SimpleList component:
 
 ```jsx
 import React from 'react';
-import ReactDOM from 'react-dom';
 
 class SimpleList extends React.Component{
     render(){
@@ -191,7 +190,6 @@ Here is the code for the App component.
 
 ```jsx
 import React from 'react';
-import ReactDOM from 'react-dom';
 import SimpleList from './SimpleList.js'
 
 class App extends React.Component{
@@ -255,7 +253,6 @@ Updated code in app component:
 
 ```jsx
 import React from 'react';
-import ReactDOM from 'react-dom';
 import SimpleList from './SimpleList.js'
 import styles from './app.module.css'
 
@@ -293,7 +290,6 @@ Then I add a few lines of code to add the styles to my component.
 
 ```jsx
 import React from 'react';
-import ReactDOM from 'react-dom';
 import styles from './simpleList.module.css'
 
 class SimpleList extends React.Component{
