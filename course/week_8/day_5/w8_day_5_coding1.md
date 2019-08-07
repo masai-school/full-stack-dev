@@ -14,6 +14,7 @@
 
 The task today is to review all the JavaScript theory we went over. Often in interviews you may be asked one of more of these fundamental questions so it is important to know them.
 
+
 ## Explain it simply
 
 Einstein once said "If you can't explain it simply, you don't understand it well enough".
