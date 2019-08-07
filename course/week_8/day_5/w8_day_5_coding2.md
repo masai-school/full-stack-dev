@@ -5,7 +5,7 @@
 **SUBMISSION:**
 
 - Pull the `cohort_1` repo
-- Go to `/practise/week_8/day_5/session1` 
+- Go to `/practise/week_8/day_5/session2` 
 - Make a react app with the name `firstname_lastname` with your first name and last name  
 - Once you are done with the coding session create a new local branch called `firstname_lastname_week_8_day_5_coding2` with your first name and last name. Push this branch to the remote repo. Make sure you don't push the `node_modules` folder!
 - Create a pull request for the branch you created with the Title `FirstName LastName Week 8 day 5 coding 2`. Add any relevant comments and the coding1 label to your pull request. Make sure to add one of the instructors to review your pull request.

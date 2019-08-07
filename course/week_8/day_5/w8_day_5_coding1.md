@@ -6,7 +6,7 @@
 **SUBMISSION:**
 
 - Pull the `cohort_1` repo
-- Go to `/practise/week_8/session1` 
+- Go to `/practise/week_8/day_5/session1` 
 - Create a new branch called `Firstname Lastname Week 8 Day 5 session 1`
 - Copy this file with all your answers and rename it `firstname_lastname.md`.
 - Submit a pull request with the title `Firstname LastName Week 8 Day 5 session 1`
