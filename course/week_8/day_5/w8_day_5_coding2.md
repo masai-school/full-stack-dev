@@ -46,7 +46,7 @@ MVP or minimum viable product is the least amount of functionality you must have
 
 - [ ] Users should be able to search for github users.
 - [ ] Users should be able to see information about github users like username, profile picture, etc.
-- [ ] Users should be able to click any profile to see more information about any given user. (This must occur within your app itself, not link externally to github.com!) 
+- [ ] Users should be able to click any profile to see more information about any given user. (This must occur within your app itself, not link externally to github.com! You can still provide an externaly link if required.) 
 
 ## Stretch Goals
 
