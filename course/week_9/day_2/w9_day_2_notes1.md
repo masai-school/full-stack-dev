@@ -4,7 +4,7 @@
 
 ### The `match` object
 
-This object contains useful information about the `<Route path>` matched the URL.
+This object contains useful information about the `<Route path>` matched from the URL.
 
 You can read about it here [https://reacttraining.com/react-router/web/api/match](https://reacttraining.com/react-router/web/api/match).
 
@@ -255,7 +255,7 @@ We can easily add a component called `NotFound` which will render for any invali
 </Switch>
 ```
 
-
+You can see the example from class here [https://github.com/masai-school/full-stack-dev/tree/master/course/week_9/day_2/router_example_day_2](https://github.com/masai-school/full-stack-dev/tree/master/course/week_9/day_2/router_example_day_2)
 
 
 

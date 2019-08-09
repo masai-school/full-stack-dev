@@ -358,6 +358,6 @@ export default class App extends React.Component {
     }
 } 
 ```
-You can find the example project here [https://github.com/masai-school/full-stack-dev/tree/master/course/week_9/router_example](https://github.com/masai-school/full-stack-dev/tree/master/course/week_9/router_example)
+You can find the example project here [https://github.com/masai-school/full-stack-dev/tree/master/course/week_9/day_1/router_example](https://github.com/masai-school/full-stack-dev/tree/master/course/week_9/day_1/router_example)
 
-**Important Note:** I wrote all my components in a single file. I **do not** recommend doing this. I did this so you could easily understand this tutorial. Please only have related components in the same file!
+Note:** I wrote all my components in a single file. I **do not** recommend doing this. I did this so you could easily understand this tutorial. Please only have related components in the same file!
