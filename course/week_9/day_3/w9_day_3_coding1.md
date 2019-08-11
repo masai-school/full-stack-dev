@@ -50,7 +50,7 @@ For inspiration on your design take a look at these websites:
 
 MVP or minimum viable product is the least amount of functionality you must have done by the end of today.
 
-Your task today is to update yesterdays shopping Application with some new features. 
+Your task today is to update the Day 1 shopping application with some new features. 
 
 - [ ] Users should be able to add items to the cart. The cart should be accessible from a `/shoppingcart` route. This route is accessed by clicking the shopping cart icon. 
 - [ ] Users must sign in before they can add anything to the cart. If users who have no signed in try to add any items to your cart, they should be redirected to the sign in page. 

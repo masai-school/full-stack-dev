@@ -50,7 +50,7 @@ For inspiration on your design take a look at these websites:
 
 MVP or minimum viable product is the least amount of functionality you must have done by the end of today.
 
-Your task today is to update yesterdays shopping Application with some new features. 
+Your task today is to update yesterdays shopping application with some new features. 
 
 - [ ] Add some products pages to your Application, the data for this can be some dummy JSON data from a file in Public. Also add placeholder images for each product. You can use [https://placeimg.com/](https://placeimg.com/) to generate these images. 
 - [ ] When a product from the products pages is clicked, the application must take the user to a custom product page where the user can see more information about a product. This product page must also give the user a `Add to Cart` button.

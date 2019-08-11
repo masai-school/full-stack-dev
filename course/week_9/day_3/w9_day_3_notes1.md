@@ -6,9 +6,9 @@
 
 While the front end is not used for authentication we might still want some routes to be protected. 
 
-If a user visits once of these routes, they should be redirected to the login page or the home page.
+If a user visits once of these routes, they should be redirected to the login page or the home page, if they are not authenticated. 
 
-To do this we can use the `<Redirect>` component. 
+To do this we can use the `<Redirect>` component from react router.  
 
 You can read the documentaiton here [https://reacttraining.com/react-router/web/api/Redirect](https://reacttraining.com/react-router/web/api/Redirect)
 
@@ -71,19 +71,17 @@ Finally in the App component we can write the logic for the sign in and sign out
 
 ### Using Regular Expressions for dynamic routing
 
-The `path` property of the `<Route>` component can accept regular expression for routing. 
+The `path` property of the `<Route>` component can accept regular expressions for dynamic routing. 
 
 For this tutroial we will not be diving deep into Regular Expressions or regex. However, if you are curious and want to learn more [https://regexone.com/](https://regexone.com/) provides a great tutorial on this subject. 
-
-This means we can perform some dynamic structured routing. 
 
 For example lets say we have an array of items that are sold on our website, users may want to order these items by price, color etc. 
 
 We can assign dynamic routes for each of these in a single line and render components accordingly. 
 
-In our application we might want to order the products within the `/products` route by price. Both ascending and descending price. 
+In our application we might want to order the products within the `/products` route by both ascending and descending price. 
 
-An easy way to do this might be a `/products/asc` route and a `/products/desc` route. This is fine for 2 different routes but once any more and our code becomes needlessly complicated. 
+An easy way to do this might be a `/products/asc` route and a `/products/desc` route. This is fine for 2 different routes but often we must have many more routes which makes our code needlessly complicated. 
 
 Instead we can modify the existing `/products` route with a Regular Expression.
 
