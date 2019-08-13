@@ -25,8 +25,6 @@ Go to the folder you copied and renamed.
 
 Inside the folder type `npm install` to install all the required packages. 
 
-Once that is done you can proceed.
-
 ## Learning objectives:
 - Basics of redux
 - Creating a store
