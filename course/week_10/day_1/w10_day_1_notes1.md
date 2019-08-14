@@ -219,7 +219,7 @@ store.dispatch({
 unsubscribe() // Now we can stop listening for state updates 
 ```
 
-You can see the code for this prject here [https://github.com/masai-school/full-stack-dev/tree/master/course/week_10/day_1/redux_counter](https://github.com/masai-school/full-stack-dev/tree/master/course/week_10/day_1/redux_counter)
+You can see the code for this counter project here [https://github.com/masai-school/full-stack-dev/tree/master/course/week_10/day_1/redux_counter](https://github.com/masai-school/full-stack-dev/tree/master/course/week_10/day_1/redux_counter)
 
 ## A visual representation of the Redux lifecycle:
 
