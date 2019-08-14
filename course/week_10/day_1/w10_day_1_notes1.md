@@ -219,6 +219,8 @@ store.dispatch({
 unsubscribe() // Now we can stop listening for state updates 
 ```
 
+You can see the code for this prject here [https://github.com/masai-school/full-stack-dev/tree/master/course/week_10/day_1/redux_counter](https://github.com/masai-school/full-stack-dev/tree/master/course/week_10/day_1/redux_counter)
+
 ## A visual representation of the Redux lifecycle:
 
 If all of that was too confusing, this amazing GIF explains it better.
@@ -240,6 +242,7 @@ You cannot modify state directly in Redux like you do within a React application
 According to the Redux Docs, "The only way to change the state is to emit an action, an object describing what happened."
 
 Only modify state in Redux using actions and reducers!
+
 **Changes in Redux are made with pure functions:**
 
 Pure functions are functions that **do not** modify their arguments. Instead they create copies of the arguments and modify and change those copies to be returned later. 
