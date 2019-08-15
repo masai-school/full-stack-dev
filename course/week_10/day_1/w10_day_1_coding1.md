@@ -1,6 +1,6 @@
 # Week 10 - Day 1
 
-#### Assignment
+#### Coding 1
 
 **SUBMISSION:**
 
