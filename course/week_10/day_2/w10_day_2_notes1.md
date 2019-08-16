@@ -44,9 +44,9 @@ ReactDOM.render(
 );
 ```
 
-Next we need to write the code for our `<App?` component and its children, `<Display>`, and `<CounterInput>`.
+Next we need to write the code for our `<App>` component and its children, `<Display>`, and `<CounterInput>`.
 
-Display will display the current value of the counter and CounterInput will render 2 buttons and an input box which the user can use to increment and decrement the counter.
+Display will display the current value of the counter and CounterInput will render 2 buttons and an input box which can be used to increment and decrement the counter.
 
 Code for `App.js`:
 
