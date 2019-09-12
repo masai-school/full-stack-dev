@@ -77,16 +77,8 @@ Query
 ```
 
 ```
-Count
-```
-
-```
 **9. List of students from rank 25 to 50 based on the marks scored in English**  
 Query
-```
-
-```
-Count
 ```
 
 ```
